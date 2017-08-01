@@ -1,0 +1,1 @@
+conan upload --all --remote bincrafters Boost.Format/1.64.0@bincrafters/testing
