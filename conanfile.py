@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostFormatConan(ConanFile):
     name = "boost_format"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-format"
+    url = "https://github.com/bincrafters/conan-boost_format"
 
     lib_short_names = ["format"]
     is_header_only = True
