@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostFormatConan(base.BoostBaseConan):
     name = "boost_format"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_format"
     lib_short_names = ["format"]
     header_only_libs = ["format"]
