@@ -4,20 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostFormatConan(base.BoostBaseConan):
     name = "boost_format"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_format"
-    lib_short_names = ["format"]
-    header_only_libs = ["format"]
-    b2_requires = [
-        "boost_assert",
-        "boost_config",
-        "boost_core",
-        "boost_optional",
-        "boost_smart_ptr",
-        "boost_throw_exception",
-        "boost_utility"
-    ]
+    version = "1.70.0"
